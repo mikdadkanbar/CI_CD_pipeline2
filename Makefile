@@ -1,8 +1,7 @@
 
 install:
 	
-	pip install --upgrade pip &&\
-		pip install -r requirements.txt
+	python -m pip install --upgrade pip &&	pip install -r requirements.txt
 
  
 test:
@@ -10,6 +9,6 @@ test:
 
 
 lint:
-	pylint --disable=R,C app.py
+	pylint --disable=R,C, hello.py
 
 all: install lint test
