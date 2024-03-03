@@ -19,8 +19,9 @@ ssh-keygen -t rsa
 
 we can view the generated ssh key with the command 'cat' 
 
-> Next step is to clone the github repo 
-git clone git@github.com:mikdadkanbar/CI_CD_pipeline2.git]
+> Next step is to clone the github repo :
+
+"git clone git@github.com:mikdadkanbar/CI_CD_pipeline2.git]"
 
  ![plot](./screenshots/git clone .png)
 
