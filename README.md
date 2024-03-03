@@ -19,25 +19,27 @@ ssh-keygen -t rsa
 
 we can view the generated ssh key with the command 'cat' 
 
-> Next step is to clone the github repo :
+- Next step is to clone the github repo :
 
 "git clone git@github.com:mikdadkanbar/CI_CD_pipeline2.git]"
 
  ![plot](./screenshots/git clone .png)
 
-After successful cloning, we can enter the folder using the 'cd' command :  
+After successful cloning, we can enter the folder using the 'cd' command:  
+
 cd CI_CD_pipeline2
  
-- run make all
+- run make all command: 
+
 make all
 
-- run the python app 
+- run the python app using this command: 
 python app.py
  
-- create a webapp using the command : 
+- create a webapp using the command: 
 az webapp up --name webappudacity2223 --resource-group rgudacity2 --sku F1 --runtime "python|3.9"
 
-#test the prediction using the webapp : 
+#test the prediction using the webapp command: 
 The key step here is to get access to the file make_predict_azure_app.sh as following : 
 
      chmod +x make_predict_azure_app.sh
