@@ -1,7 +1,7 @@
 # Overview
 
 <TODO: complete this with an overview of your project>
-
+In this project we will create a  CI/CD pipeline.
 ## Project Plan
 <TODO: Project Plan
 
