@@ -145,7 +145,7 @@ curl -d '{
    }
 }'\
      -H "Content-Type: application/json" \
-     -X POST https://webappudacity2223.azurewebsites.net:443/predict
+     -X POST https://webappudacity22231.azurewebsites.net:443/predict
 
 
 
