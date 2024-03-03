@@ -152,3 +152,7 @@ curl -d '{
      ===
      chmod +x make_predict_azure_app.sh
 ./make_predict_azure_app.sh
+
+
+===
+r7gxrpnczphuhtyrsubpn5cc3zlfigg5ns6pwsbouqdsfoh3hhaq
