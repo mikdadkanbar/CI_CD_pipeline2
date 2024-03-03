@@ -1,7 +1,7 @@
 # Overview
 
 <TODO: complete this with an overview of your project>
-In this project we will create a  CI/CD pipeline.
+In this project we will create a  CI/CD pipeline. We will first clone our repo to Azure.
 ## Project Plan
 <TODO: Project Plan
 
