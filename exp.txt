@@ -1,0 +1,148 @@
+python3 -m venv ~/.CI_CD_pipeline
+source ~/.CI_CD_pipeline/bin/activate
+
+
+token : 
+cw74avdsmewgvdacjv66727pevk6bsesyd7ngvpdnbebhrzcab2q
+
+token2
+rkarbigmeabjsl6khv6w7k7ct4eheqpewhnnascxn4lrojtvhlhq
+
+t3 " 
+wloxfaa3eebn6lplnuqdvyif2we5vlsg7nbgpphlcyuzqerbgdka
+
+newtoken : 
+355nco7g62mnsahbrstzt47dudsigyf4rwlmprwfipamgkhh2r3a
+
+
+myagentpool
+
+commands : 
+cd CI_CD_pipeline
+
+az webapp up --name webappudacity2223 --resource-group rgudacity2
+
+az webapp up --name webappudacity2221 --resource-group Azuredevops
+
+az webapp up --name webappudacity2223 --resource-group rgudacity2 --sku F1
+
+az webapp up --name webappudacity2223 --resource-group rgudacity2 --sku F1 --runtime "python|3.9"
+
+ssh devopsagent@172.211.88.89
+
+ssh devopsagent@172.208.65.52
+DevOpsAgent@123
+
+
+ sudo snap install docker
+sudo groupadd docker
+sudo usermod -aG docker $USER
+exit
+
+
+# to download the agent :
+curl -O  https://vstsagentpackage.azureedge.net/agent/3.234.0/vsts-agent-linux-x64-3.234.0.tar.gz
+
+#create a new folder : 
+ mkdir myagent && cd myagent
+
+
+ unzpiing : 
+
+ tar zxvf ../vsts-agent-linux-x64-3.234.0.tar.gz
+
+
+all : 
+curl -O  https://vstsagentpackage.azureedge.net/agent/3.234.0/vsts-agent-linux-x64-3.234.0.tar.gz
+mkdir myagent && cd myagent
+tar zxvf ../vsts-agent-linux-x64-3.236.0.tar.gz
+ ./config.sh
+
+
+server url : 
+https://dev.azure.com/s3821749
+
+
+
+
+then : 
+sudo ./svc.sh install
+sudo ./svc.sh start
+ #######
+
+
+
+#####################
+
+sudo apt-get update
+sudo apt update
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:deadsnakes/ppa
+
+sudo apt install python3.7
+sudo apt-get install python3.7-venv
+sudo apt-get install python3-pip
+python3.7 --version
+pip --version 
+
+sudo apt-get install python3.7-distutils
+sudo apt-get -y install zip
+
+
+pip install pylint==2.13.7
+pip show --files pylint
+echo $PATH
+
+
+export PATH=$HOME/.local/bin:$PATH
+echo $PATH
+which pylint
+
+
+
+----=
+curl -d '{
+   "CHAS":{
+      "0":0
+   },
+   "RM":{
+      "0":6.575
+   },
+   "TAX":{
+      "0":296.0
+   },
+   "PTRATIO":{
+      "0":15.3
+   },
+   "B":{
+      "0":396.9
+   },
+   "LSTAT":{
+      "0":4.98
+   }
+}'\
+     -H "Content-Type: application/json" \
+     -X POST http://localhost:5000/predict
+===-
+curl -d '{
+   "CHAS":{
+      "0":0
+   },
+   "RM":{
+      "0":6.575
+   },
+   "TAX":{
+      "0":296.0
+   },
+   "PTRATIO":{
+      "0":15.3
+   },
+   "B":{
+      "0":396.9
+   },
+   "LSTAT":{
+      "0":4.98
+   }
+}'\
+     -H "Content-Type: application/json" \
+     -X POST https://webappudacity22231.azurewebsites.net:443/predict
