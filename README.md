@@ -5,6 +5,7 @@ In this project we will create a  CI/CD pipeline. We will first clone our repo t
 ## Project Plan
 <TODO: Project Plan > 
 
+Here is the link to Trello
 * A link to a Trello board for the project
 * A link to a spreadsheet that includes the original and final project plan>
 
