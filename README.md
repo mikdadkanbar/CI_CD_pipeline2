@@ -6,10 +6,12 @@ In this project we will create a  CI/CD pipeline. We will first clone our repo t
 <TODO: Project Plan > 
 
 Here is the link to Trello
+
+
+* A link to a Trello board for the project : 
 https://trello.com/invite/b/gYtOiBdD/ATTI7d427fe1aec2fa07fe21176aafd9e765B6F86F51/cicd
 
-* A link to a Trello board for the project
-* A link to a spreadsheet that includes the original and final project plan>
+* A spreadsheet that includes the original and final project plan could be found in the repo
 
 ## Instructions
 
@@ -46,6 +48,9 @@ python app.py
  
 - create a webapp using the command: 
 az webapp up --name webappudacity2223 --resource-group rgudacity2 --sku F1 --runtime "python|3.9"
+
+Now we should see this : 
+ ![plot](./screenshots/webapp.png)
 
 #test the prediction using the webapp command: 
 The key step here is to get access to the file make_predict_azure_app.sh as following : 
@@ -88,8 +93,17 @@ exit
   ![plot](./screenshots/log_stream.png)
 
   ![plot](./screenshots/log_stream2.png)
+
+# Load test using Locust :
+First we install locust using the command:
+pip install locust
+
+Then after starting locust, we go to this link http://localhost:8089 
+here you can see the load test :
+ ![plot](./screenshots/locust2.png)
+
 ## Demo 
 
-<TODO: Add link Screencast on YouTube>
+You can see the demo on youtube here : https://youtu.be/OzaoHXqpiLc
 
 
