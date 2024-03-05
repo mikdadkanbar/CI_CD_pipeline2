@@ -72,6 +72,7 @@ Now we integrate github actions sothat each time we push, we do continous integr
 Here is a status badge :
 [![Python application test with Github Actions](https://github.com/mikdadkanbar/CI_CD_pipeline2/actions/workflows/pythonapp.yml/badge.svg)](https://github.com/mikdadkanbar/CI_CD_pipeline2/actions/workflows/pythonapp.yml)
 
+
 > Now we should create a vm to use it as a self host agent in order to run the pipelines : 
  ![plot](./screenshots/vm.png)
 
